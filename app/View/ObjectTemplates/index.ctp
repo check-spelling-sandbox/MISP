@@ -81,7 +81,7 @@
                 ],
                 [
                     'name' => __('Description'),
-                    'sort' => 'ObjectTemplate.descripition',
+                    'sort' => 'ObjectTemplate.description',
                     'class' => 'long',
                     'data_path' => 'ObjectTemplate.description',
                 ],
