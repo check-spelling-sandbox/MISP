@@ -1350,7 +1350,7 @@ class ACLComponent extends Component
      * The check works like this:
      * - If the user is a site admin, return true
      * - If the requested action has an OR-d list, iterate through the list. If any of the permissions are set for the user, return true
-     * - If the requested action has an AND-ed list, iterate through the list. If any of the permissions for the user are not set, turn the check to false. Otherwise return true.
+     * - If the requested action has an AND-ed list, iterate through the list. If any of the permissions for the user are not set, turn the check to false. Otherwise, return true.
      * - If the requested action has a permission, check if the user's role has it flagged. If yes, return true
      * - If we fall through all of the checks, return an exception.
      *

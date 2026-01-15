@@ -13,7 +13,7 @@ channel_name = '#name'
 slack_token = ''
 
 misp_url = 'https://192.168.1.1'
-misp_is_public = True   # set to False if your MISP instance is on a non-internet reachable location. Shows the org icon of the event owner. Otherwise shows the MISP logo.
+misp_is_public = True   # set to False if your MISP instance is on a non-internet reachable location. Shows the org icon of the event owner. Otherwise, shows the MISP logo.
 
 # filter for confidentiality
 allowed_distributions = ['0', '1', '2', '3', '4']  # * = all, 0/ my org only, 1/ this community, 2/ connected communities, 3/ all communities, 4/ sharing group
