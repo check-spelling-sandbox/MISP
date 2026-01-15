@@ -1918,8 +1918,8 @@ class User extends AppModel
         $periodicSettings = $this->fetchPeriodicSettingForUser($userId, true);
         $filters = $this->getUsablePeriodicSettingForUser($periodicSettings, $period, $lastdays);
         $filtersForRestSearch = $filters; // filters for restSearch are slightly different than fetchEvent
-        $filtersForfilterEventIds = $filters; // filters for restSearch are slightly different than fetchEvent
-        $eventid = $this->Event->filterEventIds($user, $filtersForfilterEventIds);
+        $filtersForFilterEventIds = $filters; // filters for restSearch are slightly different than fetchEvent
+        $eventid = $this->Event->filterEventIds($user, $filtersForFilterEventIds);
         unset($filters['tags']);
         $filters['last'] = $this->resolveTimeDelta($filters['last']);
         $filters['sgReferenceOnly'] = true;
