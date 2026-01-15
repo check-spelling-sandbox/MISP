@@ -7,7 +7,7 @@ class AnalystDataBlocklistsController extends AppController
 
     public $paginate = array(
             'limit' => 60,
-            'maxLimit' => 9999, // LATER we will bump into a problem once we have more than 9999 entries <- no we won't, this is the max a user can view/page.
+            'maxLimit' => 9999, // LATER we will bump into a problem once we have more than 9999 entries <- no we won't, this is the max that a user can view/page.
             'order' => array(
                 'AnalystDataBlocklist.created' => 'DESC'
             ),
