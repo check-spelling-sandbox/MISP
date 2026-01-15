@@ -46,7 +46,7 @@ $config = array(
             'misp-admin' => 1, // Admin
         ],
         'default_org' => '{{ MISP_ORG }}',
-        'disable_request_object' => true, //Disable the Request Object approach in authorization requests, allowing users to fallback to plain parameters when needed for compatibility with certain OpenID Connect providers. (False by default)
+        'disable_request_object' => true, //Disable the Request Object approach in authorization requests, allowing users to fall back to plain parameters when needed for compatibility with certain OpenID Connect providers. (False by default)
         'scopes' => ['profile', 'email'], // Make sure to add your custom scope here if you set any
     ],
     ...

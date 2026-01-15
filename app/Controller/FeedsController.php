@@ -26,7 +26,7 @@ class FeedsController extends AppController
                 )
             )
         ),
-        'maxLimit' => 9999, // LATER we will bump here on a problem once we have more than 9999 events
+        'maxLimit' => 9999, // LATER we will bump into a problem once we have more than 9999 events
         'order' => array(
             'Feed.default' => 'DESC',
             'Feed.id' => 'ASC'

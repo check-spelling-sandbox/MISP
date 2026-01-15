@@ -807,7 +807,7 @@ function injectLineNumbers(tokens, idx, options, env, slf) {
 
 
 // Build offsets for each line (lines can be wrapped)
-// That's a bit dirty to process each line everytime, but ok for demo.
+// That's a bit dirty to process each line every time, but ok for demo.
 // Optimizations are required only for big texts.
 // Source: https://github.com/markdown-it/markdown-it/blob/master/support/demo_template/index.js
 function buildScrollMap() {

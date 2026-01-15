@@ -208,7 +208,7 @@ Configure::write('Security.cipherSeed', '395786739573056621429506834955');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
- * Will append a querystring parameter containing the time the file was modified. This is
+ * Will append a querystring parameter containing the time that the file was modified. This is
  * useful for invalidating browser caches.
  *
  * Set to `true` to apply timestamps when debug > 0. Set to 'force' to always enable

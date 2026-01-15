@@ -688,7 +688,7 @@ class MispObject extends AppModel
         if (isset($options['contain'])) {
             $tempOptions = $options;
             if (isset($options['contain']['Event'])) {
-                // we include this manually insted to allow for the reverse join
+                // we include this manually instead to allow for the reverse join
                 unset($tempOptions['contain']['Event']);
             }
             $params['contain'] = array_merge_recursive($params['contain'], $tempOptions['contain']);

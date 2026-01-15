@@ -239,7 +239,7 @@ class IOCImportComponent extends Component
         return $event;
     }
 
-    // traverse the oldTree and set the successful branches and leaves to "success true" if they got added to the attribute tree. Otherwise set false.
+    // traverse the oldTree and set the successful branches and leaves to "success true" if they got added to the attribute tree. Otherwise, set false.
     private function __setSuccesses($branch)
     {
         foreach ($branch['leaves'] as $key => $value) {
