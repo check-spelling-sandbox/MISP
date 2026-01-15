@@ -28,7 +28,7 @@
                         <li><?= __('For example, the blocking `Event publish` workflow can prevent the publishing.') ?></li>
                     </ul>
                     <li><strong><?= __('Blocking module:') ?></strong> <?= __('Blocking modules are action modules having the ability to make blocking workflows to block the current action. Blocking modules on non-blocking workflows have no effect on the blocking aspect.') ?></li>
-                    <li><strong><?= __('Module Filtering Conditions:') ?></strong> <?= __('Some action modules accept filtering condition. This basic filtering allows user to specify on which part of the data the module should be executed.') ?></li>
+                    <li><strong><?= __('Module Filtering Conditions:') ?></strong> <?= __('Some action modules accept filtering conditions. This basic filtering allows user to specify on which part of the data the module should be executed.') ?></li>
                     <ul>
                         <li><?= __('For example, the enrich-event module can only perform the enrichment on Attributes matching the condition.') ?></li>
                     </ul>
